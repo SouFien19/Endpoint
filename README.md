@@ -1,2 +1,2 @@
 # Endpoint
-Front-end part of Internship
+The Front-End part of Internship project
