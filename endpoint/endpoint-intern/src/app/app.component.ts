@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-declare function layers():any;
+declare function layers(): any;
+declare function drop():any;
 
 @Component({
   selector: 'app-root',
@@ -11,6 +12,7 @@ declare function layers():any;
 export class AppComponent implements OnInit{
   ngOnInit() {
     layers();
+    drop();
   }
 
 }

@@ -33,7 +33,8 @@
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "/endpoint/endpoint-intern/src/js/assets/home.js"
+              "/endpoint/endpoint-intern/src/assets/js/layers.js",
+              "/endpoint/endpoint-intern/src/assets/js/drop.js"
             ]
           },
           "configurations": {
