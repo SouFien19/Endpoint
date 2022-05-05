@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 declare function layers():any;
 
@@ -8,13 +8,10 @@ declare function layers():any;
   styleUrls: ['./app.component.css']
   
 })
-export class AppComponent {
-  title = 'endpoint-intern';
-
-  constructor() {
-  
+export class AppComponent implements OnInit{
+  ngOnInit() {
+    layers();
   }
-
 
 }
 
